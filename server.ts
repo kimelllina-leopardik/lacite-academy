@@ -1,6 +1,5 @@
 import express from "express";
 import path from "path";
-import { fileURLToPath } from "url";
 import { createServer as createViteServer } from "vite";
 import { 
   BRANDS, 
@@ -11,9 +10,6 @@ import {
   INITIAL_ANALYTICS 
 } from "./src/data/learningData.ts";
 import { User, LearningPlan, ReminderSetting, UserProgressRecord, BrandId, UserRole } from "./src/types.ts";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 // Server-side State Engine
 let users: User[] = [...INITIAL_USERS];
