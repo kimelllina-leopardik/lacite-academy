@@ -1,0 +1,6 @@
+{
+  "name": "G&M Group Corporate Academy",
+  "description": "Корпоративная PWA-платформа обучения и сертификации персонала G&M Group (lacite.tj, Geox, Yves Rocher).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

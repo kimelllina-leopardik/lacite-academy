@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "G&M Group Corporate Academy",
+  "short_name": "G&M Academy",
+  "description": "Корпоративная PWA-платформа обучения персонала G&M Group (lacite.tj, Geox, Yves Rocher).",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#090d16",
+  "theme_color": "#0f172a",
+  "categories": ["education", "business"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
